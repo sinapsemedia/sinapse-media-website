@@ -530,3 +530,15 @@ body{background:var(--paper);color:var(--navy)}
  .hero-backdrop-one,.hero-backdrop-two,.hero-visual-glow,.visual-ring,.visual-core,.visual-core:before,.visual-core:after,.visual-sphere,.visual-sculpture,.visual-orbit-dot,.float-card{animation:none!important}
  .hero-video{display:block}
 }
+
+/* Requested: keep the video background, remove the floating orbital illustration. */
+.hero-visual-glow,
+.visual-sphere,
+.visual-sculpture,
+.visual-ring,
+.visual-core,
+.visual-orbit-dot,
+.float-card,
+.visual-caption {
+  display: none !important;
+}
